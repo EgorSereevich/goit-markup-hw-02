@@ -88,13 +88,14 @@ body {
   list-style: none;
 }
 .works h2 {
-  color: var(--text-color);
+  color: var(--primery-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
 }
 /* Team */
 .team h2 {
+  color: var(--primery-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -162,7 +163,7 @@ body {
   text-decoration: none;
 }
 .examples-list h2 {
-  color: var(--text-color);
+  color: var(--primery-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
