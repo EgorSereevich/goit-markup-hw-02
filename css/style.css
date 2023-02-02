@@ -2,11 +2,12 @@
   --first-logo-color: #4d5ae5;
   --second-footer-text-color: #f4f4fd;
   --primery-background-color: #ffffff;
-  --text-color: #2e2f42;
-  --primery-text-color: #434455;
+  --primery-text-color: #2e2f42;
+  --text-color: #434455;
   --footer-text-color: #e7e9fc;
 }
 body {
+  color: var(--text-color);
   background-color: var(--primery-background-color);
   font-family: "Roboto";
   font-style: normal;
@@ -15,10 +16,11 @@ body {
   line-height: 1.5;
 }
 /* index.html */
+
 /*header*/
 
 .top-line .logo {
-  color: var(--text-color);
+  color: var(--primery-text-color);
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
@@ -35,7 +37,7 @@ body {
   line-height: 1.33;
 }
 .top-line .nav {
-  color: var(--text-color);
+  color: var(--primery-text-color);
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -48,7 +50,7 @@ body {
   list-style: none;
 }
 .contacts a {
-  color: var(--primery-text-color);
+  color: var(--text-color);
   text-decoration: none;
 }
 /* preview */
@@ -56,14 +58,14 @@ body {
   background-color: #2e2f42;
 }
 .preview h1 {
-  color: #ffffff;
+  color: var(--primery-background-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
 }
 .preview .button {
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--primery-background-color);
+  background-color: var(--first-logo-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -73,13 +75,13 @@ body {
   list-style: none;
 }
 .advantages h3 {
-  color: var(--text-color);
+  color: var(--primery-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 .advantages p {
-  color: var(--primery-text-color);
+  color: var(--text-color);
 }
 /* works */
 .works .list {
@@ -101,7 +103,7 @@ body {
   list-style: none;
 }
 .team .name {
-  color: var(--text-color);
+  color: var(--primery-text-color);
 
   font-weight: 500;
   font-size: 20px;
@@ -109,7 +111,7 @@ body {
 }
 
 .team .specialization {
-  color: var(--primery-text-color);
+  color: var(--text-color);
 }
 /* footer */
 .bottom-line {
@@ -138,15 +140,14 @@ body {
 }
 /* portfolio */
 .filter-list button {
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--first-logo-color);
+  background-color: var(--second-footer-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
 .filter-list button:hover {
-  color: #ffffff;
-
+  color: var(--primery-background-color);
   background-color: #404bbf;
   cursor: pointer;
 }
