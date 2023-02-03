@@ -11,6 +11,7 @@
   --hover-button-background-color: #404bbf;
   --team-background-color: #f4f4fd;
   --team-card-background-color: #ffffff;
+  --footer-color: #2e2f42;
 }
 body {
   color: var(--text-color);
@@ -145,7 +146,7 @@ body {
 }
 /* footer */
 .bottom-line {
-  background-color: #2e2f42;
+  background-color: var(--footer-color);
 }
 .bottom-line-logo {
   color: var(--second-footer-text-color);
