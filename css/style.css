@@ -16,7 +16,7 @@
 body {
   color: var(--text-color);
   background-color: var(--primery-background-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 /* index.html */
@@ -39,7 +39,7 @@ body {
 .top-logo {
   color: var(--primery-text-color);
   text-decoration: none;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -47,7 +47,7 @@ body {
 }
 .blue-logo {
   color: var(--first-logo-color);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -61,7 +61,7 @@ body {
   text-decoration: none;
 }
 .link:hover,
-:focus {
+.link:focus {
   color: var(--hover-text-color);
 }
 .contacts {
@@ -70,9 +70,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  font-style: normal;
 }
 .contacts:hover,
-:focus {
+.contacts:focus {
   color: var(--hover-text-color);
 }
 /* preview */
@@ -96,7 +97,7 @@ body {
   letter-spacing: 0.04em;
 }
 .peview-button:hover,
-:focus {
+.peview-button:focus {
   color: var(--primery-button-text-color);
   background-color: var(--hover-button-background-color);
   cursor: pointer;
@@ -151,7 +152,7 @@ body {
 .bottom-line-logo {
   color: var(--second-footer-text-color);
   text-decoration: none;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -160,7 +161,7 @@ body {
 .blue-logo {
   color: var(--first-logo-color);
   text-decoration: none;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -173,14 +174,14 @@ body {
 .filter-button {
   color: var(--first-logo-color);
   background-color: var(--second-footer-text-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
 .filter-button:hover,
-:focus {
+.filter-button:focus {
   color: var(--primery-button-text-color);
   background-color: var(--hover-button-background-color);
   cursor: pointer;
